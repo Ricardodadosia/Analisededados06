@@ -1,8 +1,9 @@
-total = 0 
-quantidade = 0 
+total_despesas = 0 
+quantidade_despesas= 0 
+continua = "S"
 
 while True:
-    valor = float(input("\ndigite o valor da despesa realizada: R$ "))
+    valor = float(input("digite o valor da despesa realizada: R$ "))
 
     total = total + valor 
     quantidade = quantidade + 1 
@@ -12,9 +13,10 @@ while True:
     if continuar == "N":
          break
 
-    print("\nResumo das despesas")
-    print("quantidades de despesas:", quantidade)
-    print(f"valor total das despesas: R$")   
-    
+    print("Resumo das despesas" {total_despesas})
+    print("quantidades de despesas registrada:", {quantidade_despesas})
+    print(f'("valor total das despesas:) R$" {total_despesas} )  
 
     
+    
+
